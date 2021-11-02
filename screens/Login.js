@@ -11,14 +11,14 @@ export default function login(){
             height: 200,
             borderRadius: 10,
             marginBottom: 50,
-            transform: [{rotation: "45deg"}]
+            
         }}
         source={{
-            uri: "https://images.unsplash.com/photo-1593642634443-44adaa06623a?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMDl8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+            uri: "https://media.gettyimages.com/photos/shirts-hanging-on-wooden-coat-hangers-picture-id182376883?k=20&m=182376883&s=612x612&w=0&h=S3JP-dyxpAcG6L84xHw0aGdgEpoEDWpzUHxdAiwScL0="
         }}
         />
 <Text style={{color: "rgba(0,0,0,0.6)", fontSize:24}}>WELCOME TO</Text>
-<Text style={{color: 'black', fontSize:30, fontWeight: '600'}}>
+<Text style={{color: 'black', fontSize:30, fontWeight: '600',}}>
     One Stop Shop Of Shirts
     </Text>
     <TouchableOpacity 
@@ -47,16 +47,16 @@ export default function login(){
          marginTop: 20,
     }}
     >
-<AntDesign name="apple1" size={24} color="black" />
+<AntDesign name="apple1" size={24} color="white" />
 <Text style={{ fontSize: 17, color: "white", marginLeft: 15 }}>Login  with Apple</Text>
 
     </TouchableOpacity>
     
-    <TouchableOpacity>
     <Text style={{marginTop: 10, fontWeight: "500", color: "grey" }}>
-    Not a member? 
-    <Text style={{color: "orange", fontWeigt: "bold"}}>SignUp</Text>
-    </Text>
+    Not a member? </Text>
+    <TouchableOpacity>
+    <Text style={{color: "orange", fontWeight: "bold"}}>SignUp</Text>
+    
     </TouchableOpacity>
     </View>
     );
