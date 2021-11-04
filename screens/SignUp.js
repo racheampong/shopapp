@@ -1,10 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { Input, NativeBaseProvider, Button, Icon, Box, Image, AspectRatio } from 'native-base';
+import { Input, NativeBaseProvider, Button, Icon, Box, Image, AspectRatio, } from 'native-base';
 import { FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
-import { alignContent, flex, flexDirection, width } from 'styled-system';
+import { alignContent, borderRadius, flex, flexDirection, fontWeight, width } from 'styled-system';
 
 
 function SignUp() {
@@ -145,7 +145,7 @@ function SignUp() {
 
       {/* Button */}
       <View style={styles.buttonStyle}>
-        <Button style={styles.buttonDesign}>
+        <Button style={styles.buttonDesign} onPress={() => navigation.navigate("Home")}>
             REGISTER NOW
         </Button>
       </View>
@@ -163,7 +163,7 @@ function SignUp() {
       <View style={styles.boxStyle}>
       <Box 
         onPress={() => navigation.navigate("#")}  // for navigation
-        style={{height:80, width:80}} 
+        style={{height:30, width:30}} 
         shadow={3}
         _light={{
           backgroundColor: "gray.50",
@@ -184,7 +184,8 @@ function SignUp() {
       </Box>
       <Box 
         onPress={() => navigation.navigate("#")}  // for navigation
-        style={styles.imageStyle}
+          style={styles.imageStyle}
+          style={{height:30, width:30}}
         shadow={3}
         _light={{
           backgroundColor: "gray.50",
@@ -207,6 +208,7 @@ function SignUp() {
       <Box 
         onPress={() => navigation.navigate("#")}  // for navigation
         style={styles.imageStyle}
+        style={{height:30, width:30}}
         shadow={3}
         _light={{
           backgroundColor: "gray.50",
@@ -229,6 +231,7 @@ function SignUp() {
       <Box 
         onPress={() => navigation.navigate("#")}  // for navigation
         style={styles.imageStyle}
+        style={{height:30, width:30}}
         shadow={3}
         _light={{
           backgroundColor: "gray.50",
@@ -282,10 +285,12 @@ const styles = StyleSheet.create({
   text2:{
     flexDirection:'row',
     justifyContent:'center',
-    paddingTop:5
+    paddingTop:5,
+    color: 'grey',
+    fontWeight: '400'
   },
   signupText:{
-    fontWeight:'bold'
+    fontWeight:'bold',
   },
   emailField:{
     marginTop:30,
@@ -306,7 +311,8 @@ const styles = StyleSheet.create({
     marginRight:15
   },
   buttonDesign:{
-    backgroundColor:'#026efd'
+    backgroundColor:'#026efd',
+    borderRadius: 20
   },
   lineStyle:{
     flexDirection:'row',

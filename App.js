@@ -6,6 +6,8 @@ import {createNativeStackNavigator}from '@react-navigation/native-stack'
 import Login from './screens/Login';
 import SignUp from './screens/SignUp';
 import ProfilePage from './screens/profile';
+import Home from './screens/Home';
+import description from './screens/description';
 
 export default function App() {
 
@@ -17,9 +19,12 @@ export default function App() {
         screenOptions={{ headerShown: false}}
         initialRouteName ="Login"
         >
-          <Stack.Screen name = "ProfilePage" component={ProfilePage} />
-          {/* <Stack.Screen name = "Login" component={Login} />
-          <Stack.Screen name = "SignUp" component={SignUp} /> */}
+          
+          <Stack.Screen name = "Login" component={Login} />
+          <Stack.Screen name = "SignUp" component={SignUp} />
+          <Stack.Screen name = "Home" component={Home} />
+          {/* <Stack.Screen name = "ProfilePage" component={ProfilePage} /> */}
+          <Stack.Screen name = "description" component={description} />
 
 
         </Stack.Navigator>

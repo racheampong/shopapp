@@ -131,6 +131,7 @@ const Login = () => {
                 padding: 10,
                 paddingHorizontal: 60,
               }}
+              onPress={() => navigation.navigate("Home")}
             >
               <AntDesign name="google" size={24} color="rgb(251, 100, 10)" />
               <Text style={{ fontSize: 17, marginLeft: 15 }}>
@@ -149,6 +150,7 @@ const Login = () => {
                 paddingHorizontal: 60,
                 marginTop: 20,
               }}
+              onPress={() => navigation.navigate("Home")}
             >
               <AntDesign name="apple1" size={24} color="white" />
               <Text style={{ fontSize: 17, color: "white", marginLeft: 15 }}>
