@@ -119,10 +119,10 @@ export default function cart(navigate){
         </TouchableOpacity>
 
         <View style={{flexDirection: "row",}}>
-            <Text style={{marginLeft: "5%", fontWeight: "bold", fontSize: 20}}>Subtotal</Text>
+            <Text style={{marginLeft: "5%", fontWeight: "bold", fontSize: 21}}>Subtotal</Text>
             <Text style={{marginLeft: "50%", fontWeight: "bold", fontSize: 20}}>$405.00</Text>
         </View>
-        
+
         </View>
         </SafeAreaView>
     )
