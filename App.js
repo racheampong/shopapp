@@ -8,6 +8,7 @@ import SignUp from './screens/SignUp';
 import ProfilePage from './screens/profile';
 import Home from './screens/Home';
 import description from './screens/description';
+import cart from './screens/Cart'
 
 export default function App() {
 
@@ -16,13 +17,14 @@ export default function App() {
     <View style={{flex: 1}}>
       <NavigationContainer>
         <Stack.Navigator 
-        screenOptions={{ headerShown: false}}
+        
         initialRouteName ="Login"
         >
           
-          <Stack.Screen name = "Login" component={Login} />
+          {/* <Stack.Screen name = "Login" component={Login} />
           <Stack.Screen name = "SignUp" component={SignUp} />
-          <Stack.Screen name = "Home" component={Home} />
+          <Stack.Screen name = "Home" component={Home} /> */}
+          <Stack.Screen name= "Cart" component={cart} />
           {/* <Stack.Screen name = "ProfilePage" component={ProfilePage} /> */}
           <Stack.Screen name = "description" component={description} />
 

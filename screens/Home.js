@@ -48,7 +48,7 @@ export default function  Home ({navigation}){
             <View style={{flexDirection: "row"}}>
                 
                 <TouchableOpacity style={styles.itemDisplay} onPress={() => navigation.navigate("description")}>
-                    <Image source={require("../assets/Kente_2.jpg")}
+                    <Image source={require("../assets/images_1_adobespark.png")}
                     style={{
                         height: 180,
                         width: "100%",
@@ -57,14 +57,14 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Original Kente</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Facial Cleaner</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
                 
                
                 <TouchableOpacity style={{marginLeft: 50}} style={styles.itemDisplay1} >
-                    <Image source={require("../assets/Kente_2.jpg")}
+                    <Image source={require("../assets/images_4_adobespark.png")}
 
                     style={{
                         height: 180,
@@ -74,7 +74,7 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Original Kente</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Sanitizer</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
@@ -83,7 +83,7 @@ export default function  Home ({navigation}){
             <View style={{flexDirection: "row", marginTop: 30}}>
                 
                 <TouchableOpacity style={styles.itemDisplay}>
-                    <Image source={require("../assets/Kente_2.jpg")}
+                    <Image source={require("../assets/images_4_adobespark.png")}
                     style={{
                         height: 180,
                         width: "100%",
@@ -92,14 +92,14 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Original Kente</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Original soap</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
                 
                
                 <TouchableOpacity style={{marginLeft: 50}} style={styles.itemDisplay1} >
-                    <Image source={require("../assets/Kente_2.jpg")}
+                    <Image source={require("../assets/images_4_adobespark.png")}
 
                     style={{
                         height: 180,
@@ -109,7 +109,7 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Original Kente</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Moisturizer</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
@@ -118,7 +118,7 @@ export default function  Home ({navigation}){
             <View style={{flexDirection: "row", marginTop: 30}}>
                 
                 <TouchableOpacity style={styles.itemDisplay}>
-                    <Image source={require("../assets/Kente_2.jpg")}
+                    <Image source={require("../assets/images_4_adobespark.png")}
                     style={{
                         height: 180,
                         width: "100%",
@@ -134,7 +134,7 @@ export default function  Home ({navigation}){
                 
                
                 <TouchableOpacity style={{marginLeft: 50}} style={styles.itemDisplay1} >
-                    <Image source={require("../assets/Kente_2.jpg")}
+                    <Image source={require("../assets/images_4_adobespark.png")}
 
                     style={{
                         height: 180,
