@@ -122,6 +122,7 @@ export default function cart(navigate){
             <Text style={{marginLeft: "5%", fontWeight: "bold", fontSize: 20}}>Subtotal</Text>
             <Text style={{marginLeft: "50%", fontWeight: "bold", fontSize: 20}}>$405.00</Text>
         </View>
+        
         </View>
         </SafeAreaView>
     )
