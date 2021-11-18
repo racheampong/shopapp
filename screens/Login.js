@@ -47,7 +47,7 @@ const Login = () => {
               marginTop: 30,
             }}
           >
-            <Text style={{ color: "black", fontSize: 30 }}>WELCOME TO</Text>
+            <Text style={{ color: "black", fontSize: 30 }}>royalbrew.store</Text>
             <Text
               style={{
                 color: "black",
@@ -56,12 +56,12 @@ const Login = () => {
                 textAlign: "center",
               }}
             >
-              One Stop Shop Of Shirts
+              Beauty Product Shop App
             </Text>
 
             <Text style={{ marginTop: 10 }}>
               {" "}
-              -Collection and Style for everyone-{" "}
+              Say hello to our Men's Facial Moisturiser,{'\n'} formulated to hydrate and refresh men's skin.{'\n'} Made with a masculine blend of Cinnamon and Citrus.{'\n'} Shop now.-{" "}
             </Text>
 
             {/*  Email and Password Input */}

@@ -38,8 +38,8 @@ export default function cart(navigate){
 
             source={require("../assets/sukin-men-Facial-Moisturiser_225ml_FL_01.jpg")} />
             <View style={{marginLeft: 30, marginTop:10}}>
-            <Text style={{fontSize: 19, fontWeight: "bold", paddingBottom:5,}}>Akata Babies Soap</Text>
-            <Text style={{paddingBottom:7}} >Addd your own text here</Text>
+            <Text style={{fontSize: 19, fontWeight: "bold", paddingBottom:5,}}>Facial Cleanser</Text>
+            <Text style={{paddingBottom:7}} >Citrus refreshes Senses</Text>
             <View style={{flexDirection:'row'}}>
                 <Text  style={{paddingTop:4, fontSize:15, fontWeight:'bold'}} >$150.00 </Text> 
                 <Ionicons name="ios-remove-circle-sharp" size={24} color="black"  style={{ paddingLeft:'25%',}}/>
@@ -64,8 +64,8 @@ export default function cart(navigate){
 
             source={require("../assets/sukin-men-Facial-Moisturiser_225ml_FL_01.jpg")} />
             <View style={{marginLeft: 30, marginTop:10}}>
-            <Text style={{fontSize: 19, fontWeight: "bold",  paddingBottom:5,}}>Akata Babies Soap</Text>
-                <Text style={{paddingBottom:7}} >Addd your own text here</Text>
+            <Text style={{fontSize: 19, fontWeight: "bold",  paddingBottom:5,}}>Moisturiser</Text>
+                <Text style={{paddingBottom:7}} >Oil balancing mask</Text>
             <View style={{flexDirection:'row'}}>
                 <Text  style={{paddingTop:4, fontSize:15, fontWeight:'bold'}} >$150.00 </Text> 
                 <Ionicons name="ios-remove-circle-sharp" size={24} color="black"  style={{ paddingLeft:'25%',}}/>
@@ -81,7 +81,7 @@ export default function cart(navigate){
             <Image
            style= {{height: 85,
                     width: 100,
-                    resizeMode: "contain",
+                    resizeMode: "contain",                                                           
                     borderRadius:30,
                     marginTop:10,
                     marginBottom:25,
@@ -89,8 +89,8 @@ export default function cart(navigate){
 
             source={require("../assets/sukin-men-Facial-Moisturiser_225ml_FL_01.jpg")} />
             <View style={{ marginLeft: 30, marginTop:10,}}>
-            <Text style={{fontSize: 19, fontWeight: "bold",  paddingBottom:5, }}>Akata Babies Soap</Text>
-            <Text style={{paddingBottom:7}}>Addd your own text here</Text>
+            <Text style={{fontSize: 19, fontWeight: "bold",  paddingBottom:5, }}>Cream Cleanser</Text>
+            <Text style={{paddingBottom:7}}>A gentle lotion</Text>
             <View style={{flexDirection:'row'}}>
                 <Text  style={{paddingTop:4, fontSize:15, fontWeight:'bold'}} >$150.00 </Text> 
                 <Ionicons name="ios-remove-circle-sharp" size={24} color="black"  style={{ paddingLeft:'25%',}}/>
@@ -120,7 +120,17 @@ export default function cart(navigate){
 
         <View style={{flexDirection: "row",}}>
             <Text style={{marginLeft: "5%", fontWeight: "bold", fontSize: 21}}>Subtotal</Text>
-            <Text style={{marginLeft: "50%", fontWeight: "bold", fontSize: 20}}>$405.00</Text>
+            <Text style={{marginLeft: "50%", fontWeight: "bold", fontSize: 20}}>$450.00</Text>
+        </View>
+
+        <View style={{flexDirection: "row",}}>
+            <Text style={{marginLeft: "5%", fontWeight: "bold", fontSize: 21}}>Shipping</Text>
+            <Text style={{marginLeft: "50%", fontWeight: "bold", fontSize: 20}}>$45.00</Text>
+        </View>
+
+        <View style={{flexDirection: "row",}}>
+            <Text style={{marginLeft: "5%", fontWeight: "bold", fontSize: 21}}>Bag total</Text>
+            <Text style={{marginLeft: "50%", fontWeight: "bold", fontSize: 20}}>$495.00</Text>
         </View>
 
         </View>

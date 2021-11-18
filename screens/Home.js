@@ -27,7 +27,7 @@ export default function  Home ({navigation}){
             {/*1st view*/}
             <View style={{flexDirection: 'row', }}>
                 <AntDesign name="left" size={22} color="black" />
-                <Text style={{fontSize: 20, fontWeight: '500', marginHorizontal: 100}}>Fancy Kente</Text>
+                <Text style={{fontSize: 20, fontWeight: '500', marginHorizontal: 100}}>Sukin Natural</Text>
                 <FontAwesome5 name="opencart" size={24} color="black" />
             </View>
 
@@ -57,7 +57,7 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Facial Cleaner</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Facial Cleanser</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
@@ -74,7 +74,7 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Sanitizer</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Moisturiser</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
@@ -92,7 +92,7 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Original soap</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Cream Cleanser</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
@@ -109,7 +109,7 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Moisturizer</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Clarifying Facial</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
@@ -127,7 +127,7 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Original Kente</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Cleansing Oil</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
@@ -144,7 +144,7 @@ export default function  Home ({navigation}){
                         borderRadius: 20,
                     }}
                     />
-                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Original Kente</Text>
+                    <Text style={{fontSize: 20, fontWeight: "bold"}}>Micellar Cleansing</Text>
                     <Text style={{fontWeight: "bold"}}>$140.00</Text>
                 </TouchableOpacity>
                 
