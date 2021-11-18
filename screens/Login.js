@@ -12,7 +12,8 @@ import { Input, Icon,NativeBaseProvider } from "native-base";
 import { FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
 import { AntDesign } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
-const image = require("../assets/image.jpg");
+//front page image
+const image = require("../assets/sukin-men-Facial-Moisturiser_225ml_FL_01.jpg");
 
 const Login = () => {
     const navigation = useNavigation();
@@ -22,7 +23,7 @@ const Login = () => {
       <ImageBackground
         source={image}
         style={{
-          color: "#fff",
+          color: "676767",
           width: "100%",
           height: "100%",
           flex: 1,
@@ -61,7 +62,7 @@ const Login = () => {
 
             <Text style={{ marginTop: 10 }}>
               {" "}
-              Say hello to our Men's Facial Moisturiser,{'\n'} formulated to hydrate and refresh men's skin.{'\n'} Made with a masculine blend of Cinnamon and Citrus.{'\n'} Shop now.-{" "}
+               THE SUKIN JOURNAL.{'\n'} Discover the world of natural through our{'\n'}eyes! From skincare tips, lifestyle and environment{'\n'}hacks to inspirational interviews! Explore it all. -{" "}
             </Text>
 
             {/*  Email and Password Input */}

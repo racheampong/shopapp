@@ -51,7 +51,7 @@ export default function  description ({navigation}){
             <Text style={{fontSize: 25, fontWeight: "bold"}}>$9.99</Text>
 
             <Text style={{fontSize: 20, fontWeight: "bold", marginTop: 15}}>About</Text>
-            <Text style={{fontSize: 15, fontWeight: "bold", marginTop: 10}}>This a very nice soap.  If your face is {'\n'} akata, it will bleach you. Woho b3t) so {'\n'} Onlyn fpr akata babies</Text>
+            <Text style={{fontSize: 15, fontWeight: "bold", marginTop: 10}}>Say hello to our natural Men's Range,{'\n'} formulated specifically for Men's skin! Our Facial{'\n'} Moisturiser For Men is created with Sesame,{'\n'} Coconut, Jojoba Oils and Aloe Vera to{'\n'} hydrate and soothe. Baobab Extract, Vitamin E and{'\n'} Tasmanian Pepper promote healthy skin, while a{'\n'} masculine blend of Cinnamon and Citrus refreshes{'\n'} the senses.</Text>
 
             <TouchableOpacity style={{backgroundColor: "black", width: "85%", borderRadius: 20, marginLeft: "7%", marginTop: "10%"}}
             onPress={() => navigation.navigate("Cart")}>
